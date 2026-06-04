@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trushitha Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Trushitha Portfolio</h1>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="theme-toggle">🌙 Theme</button>
+</header>
+
+<main class="home-grid">
+
+<section class="card">
+    <h2>About Me</h2>
+
+    <p>
+        Computer Science student passionate about
+        Web Development, Python Programming,
+        Accessibility and Modern Web Technologies.
+    </p>
+</section>
+
+<section class="card">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>SQL</span>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Trushitha Portfolio</p>
+</footer>
+
+<script>
+const toggle = document.getElementById("theme-toggle");
+
+toggle.addEventListener("click", () => {
+document.body.classList.toggle("dark");
+});
+</script>
+
+</body>
+</html>
